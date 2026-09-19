@@ -1,0 +1,568 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v24.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\.npmrc
+5 silly config load:file:C:\Users\hemac\.npmrc
+6 silly config load:file:C:\Users\hemac\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "work/.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\work\.npm-cache\_logs\2026-09-19T11_52_17_924Z-
+10 verbose logfile C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\work\.npm-cache\_logs\2026-09-19T11_52_17_924Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest next@15.1.6
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http cache https://registry.npmjs.org/next 59ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/next set size:31267243 disposed:false
+18 silly fetch manifest @opentelemetry/api@^1.1.0
+19 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+20 http cache https://registry.npmjs.org/@opentelemetry%2fapi 11ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+22 silly fetch manifest @playwright/test@^1.41.2
+23 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+24 http cache https://registry.npmjs.org/@playwright%2ftest 16ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9543975 disposed:false
+26 silly fetch manifest babel-plugin-react-compiler@*
+27 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+28 http cache https://registry.npmjs.org/babel-plugin-react-compiler 5ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1356999 disposed:false
+30 silly fetch manifest react@19.0.0
+31 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+32 http cache https://registry.npmjs.org/react 14ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/react set size:6997055 disposed:false
+34 silly fetch manifest react-dom@19.0.0
+35 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+36 http cache https://registry.npmjs.org/react-dom 18ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9424681 disposed:false
+38 silly fetch manifest sass@^1.3.0
+39 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+40 http cache https://registry.npmjs.org/sass 14ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/sass set size:752288 disposed:false
+42 silly placeDep ROOT next@15.1.6 REPLACE for: sachet-scam-shield@0.1.0 want: 15.1.6
+43 silly fetch manifest @next/swc-darwin-x64@15.1.6
+44 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+45 silly fetch manifest @next/swc-darwin-arm64@15.1.6
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+47 silly fetch manifest @next/swc-linux-x64-gnu@15.1.6
+48 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+49 silly fetch manifest @next/swc-linux-x64-musl@15.1.6
+50 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+51 silly fetch manifest @next/swc-linux-arm64-gnu@15.1.6
+52 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+53 silly fetch manifest @next/swc-linux-arm64-musl@15.1.6
+54 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+55 silly fetch manifest @next/swc-win32-arm64-msvc@15.1.6
+56 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+57 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-musl 21ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5446789 disposed:false
+59 http cache https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 43ms (cache hit)
+60 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5691188 disposed:false
+61 http cache https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 70ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5477334 disposed:false
+63 http cache https://registry.npmjs.org/@next%2fswc-darwin-x64 101ms (cache hit)
+64 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5576425 disposed:false
+65 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 133ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5516025 disposed:false
+67 http cache https://registry.npmjs.org/@next%2fswc-darwin-arm64 156ms (cache hit)
+68 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5637118 disposed:false
+69 http cache https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 177ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5496310 disposed:false
+71 silly fetch manifest picomatch@^2.3.1
+72 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+73 http cache https://registry.npmjs.org/picomatch 3ms (cache hit)
+74 silly packumentCache full:https://registry.npmjs.org/picomatch set size:134451 disposed:false
+75 silly placeDep node_modules/micromatch picomatch@2.3.2 OK for: micromatch@4.0.8 want: ^2.3.1
+76 silly placeDep ROOT @next/swc-darwin-arm64@15.1.6 OK for: next@15.1.6 want: 15.1.6
+77 silly placeDep ROOT @next/swc-darwin-x64@15.1.6 OK for: next@15.1.6 want: 15.1.6
+78 silly placeDep ROOT @next/swc-linux-arm64-gnu@15.1.6 OK for: next@15.1.6 want: 15.1.6
+79 silly placeDep ROOT @next/swc-linux-arm64-musl@15.1.6 OK for: next@15.1.6 want: 15.1.6
+80 silly placeDep ROOT @next/swc-linux-x64-gnu@15.1.6 OK for: next@15.1.6 want: 15.1.6
+81 silly placeDep ROOT @next/swc-linux-x64-musl@15.1.6 OK for: next@15.1.6 want: 15.1.6
+82 silly placeDep ROOT @next/swc-win32-arm64-msvc@15.1.6 OK for: next@15.1.6 want: 15.1.6
+83 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.12.2
+84 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+85 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 5ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 set size:63676 disposed:false
+87 silly fetch manifest @unrs/resolver-binding-android-arm64@1.12.2
+88 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+89 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 3ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 set size:17616 disposed:false
+91 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.12.2
+92 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+93 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc 2ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc set size:64613 disposed:false
+95 silly fetch manifest @unrs/resolver-binding-linux-arm64-gnu@1.12.2
+96 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu cache-miss
+97 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu 2ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu set size:65047 disposed:false
+99 silly fetch manifest @unrs/resolver-binding-linux-arm64-musl@1.12.2
+100 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl cache-miss
+101 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl 3ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl set size:65257 disposed:false
+103 silly fetch manifest @unrs/resolver-binding-openharmony-arm64@1.12.2
+104 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 cache-miss
+105 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 3ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 set size:7350 disposed:false
+107 silly fetch manifest @unrs/resolver-binding-android-arm-eabi@1.12.2
+108 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi cache-miss
+109 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi 3ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi set size:17797 disposed:false
+111 silly fetch manifest @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2
+112 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf cache-miss
+113 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf 3ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf set size:65279 disposed:false
+115 silly fetch manifest @unrs/resolver-binding-linux-arm-musleabihf@1.12.2
+116 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf cache-miss
+117 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf 2ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf set size:65533 disposed:false
+119 silly fetch manifest @unrs/resolver-binding-win32-ia32-msvc@1.12.2
+120 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc cache-miss
+121 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc 3ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc set size:64317 disposed:false
+123 silly fetch manifest @unrs/resolver-binding-linux-loong64-gnu@1.12.2
+124 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu cache-miss
+125 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu 3ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu set size:4107 disposed:false
+127 silly fetch manifest @unrs/resolver-binding-linux-loong64-musl@1.12.2
+128 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl cache-miss
+129 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl 2ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl set size:4124 disposed:false
+131 silly fetch manifest @unrs/resolver-binding-linux-ppc64-gnu@1.12.2
+132 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu cache-miss
+133 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu 2ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu set size:65057 disposed:false
+135 silly fetch manifest @unrs/resolver-binding-linux-riscv64-gnu@1.12.2
+136 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu cache-miss
+137 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu 3ms (cache hit)
+138 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu set size:56387 disposed:false
+139 silly fetch manifest @unrs/resolver-binding-linux-riscv64-musl@1.12.2
+140 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl cache-miss
+141 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl 3ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl set size:45710 disposed:false
+143 silly fetch manifest @unrs/resolver-binding-linux-s390x-gnu@1.12.2
+144 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu cache-miss
+145 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu 3ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu set size:65047 disposed:false
+147 silly fetch manifest @unrs/resolver-binding-wasm32-wasi@1.12.2
+148 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi cache-miss
+149 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi 3ms (cache hit)
+150 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi set size:67358 disposed:false
+151 silly fetch manifest @unrs/resolver-binding-darwin-x64@1.12.2
+152 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 cache-miss
+153 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 2ms (cache hit)
+154 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 set size:63092 disposed:false
+155 silly fetch manifest @unrs/resolver-binding-freebsd-x64@1.12.2
+156 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 cache-miss
+157 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 2ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 set size:63388 disposed:false
+159 silly fetch manifest @unrs/resolver-binding-linux-x64-gnu@1.12.2
+160 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu cache-miss
+161 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu 3ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu set size:64469 disposed:false
+163 silly fetch manifest @unrs/resolver-binding-linux-x64-musl@1.12.2
+164 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl cache-miss
+165 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl 2ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl set size:64685 disposed:false
+167 silly placeDep ROOT @unrs/resolver-binding-android-arm-eabi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+168 silly placeDep ROOT @unrs/resolver-binding-android-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+169 silly placeDep ROOT @unrs/resolver-binding-darwin-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+170 silly placeDep ROOT @unrs/resolver-binding-darwin-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+171 silly placeDep ROOT @unrs/resolver-binding-freebsd-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+172 silly placeDep ROOT @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+173 silly placeDep ROOT @unrs/resolver-binding-linux-arm-musleabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+174 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+175 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+176 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+177 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+178 silly placeDep ROOT @unrs/resolver-binding-linux-ppc64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+179 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+180 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+181 silly placeDep ROOT @unrs/resolver-binding-linux-s390x-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+182 silly placeDep ROOT @unrs/resolver-binding-linux-x64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+183 silly placeDep ROOT @unrs/resolver-binding-linux-x64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+184 silly placeDep ROOT @unrs/resolver-binding-openharmony-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+185 silly placeDep ROOT @unrs/resolver-binding-wasm32-wasi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+186 silly placeDep ROOT @unrs/resolver-binding-win32-arm64-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+187 silly placeDep ROOT @unrs/resolver-binding-win32-ia32-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+188 silly fetch manifest @napi-rs/wasm-runtime@^1.1.4
+189 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime cache-miss
+190 silly fetch manifest @emnapi/core@1.10.0
+191 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+192 silly fetch manifest @emnapi/runtime@1.10.0
+193 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+194 http cache https://registry.npmjs.org/@emnapi%2fcore 15ms (cache hit)
+195 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore set size:126418 disposed:false
+196 http cache https://registry.npmjs.org/@napi-rs%2fwasm-runtime 18ms (cache hit)
+197 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fwasm-runtime set size:90458 disposed:false
+198 http cache https://registry.npmjs.org/@emnapi%2fruntime 19ms (cache hit)
+199 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:127256 disposed:false
+200 silly placeDep ROOT @emnapi/core@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+201 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+202 silly placeDep ROOT @napi-rs/wasm-runtime@1.2.4 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: ^1.1.4
+203 silly fetch manifest @emnapi/wasi-threads@1.2.1
+204 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads cache-miss
+205 silly fetch manifest @tybys/wasm-util@^0.10.3
+206 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util cache-miss
+207 http cache https://registry.npmjs.org/@emnapi%2fwasi-threads 4ms (cache hit)
+208 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads set size:35327 disposed:false
+209 http cache https://registry.npmjs.org/@tybys%2fwasm-util 5ms (cache hit)
+210 silly packumentCache full:https://registry.npmjs.org/@tybys%2fwasm-util set size:62627 disposed:false
+211 silly placeDep ROOT @emnapi/wasi-threads@1.2.1 OK for: @emnapi/core@1.10.0 want: 1.2.1
+212 silly placeDep ROOT @tybys/wasm-util@0.10.4 OK for: @napi-rs/wasm-runtime@1.2.4 want: ^0.10.3
+213 silly reify mark retired [
+213 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\next'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\picomatch'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\acorn',
+215 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn',
+215 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn.cmd',
+215 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn.ps1'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint',
+216 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint',
+216 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint.cmd',
+216 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint.ps1'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\semver',
+217 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver',
+217 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd',
+217 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\semver',
+218 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver',
+218 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd',
+218 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\js-yaml',
+219 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml',
+219 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml.cmd',
+219 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml.ps1'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\json5',
+220 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5',
+220 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5.cmd',
+220 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5.ps1'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\loose-envify',
+221 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify',
+221 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify.cmd',
+221 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify.ps1'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\napi-postinstall',
+222 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall',
+222 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall.cmd',
+222 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall.ps1'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\nanoid',
+223 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid',
+223 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid.cmd',
+223 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid.ps1'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\semver',
+224 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver',
+224 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd',
+224 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\resolve',
+225 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve',
+225 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve.cmd',
+225 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve.ps1'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\semver',
+226 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver',
+226 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver.cmd',
+226 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver.ps1'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\typescript',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc.cmd',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc.ps1',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver.cmd',
+227 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver.ps1'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\which',
+228 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which',
+228 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which.cmd',
+228 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which.ps1'
+228 silly reify ]
+229 silly reify moves {
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\next': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.next-RhDrMul8',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\picomatch': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.picomatch-sWx5hd9Q',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\acorn': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.acorn-SE0DsRWB',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.acorn-hgzHkbrf',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.acorn.cmd-p09jLwhW',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.acorn.ps1-OH4P1bnE',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.eslint-1KgryJVM',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.eslint-1AMuBA5u',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.eslint.cmd-RyVPQfEJ',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.eslint.ps1-85vwKmB8',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.semver-Z2Qppwr0',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver-fPCMxVdz',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.cmd-xZH0ehwo',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-import\\node_modules\\.bin\\.semver.ps1-MXZk1IdE',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.semver-C89hDugC',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver-oWBERKUp',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.cmd-TUZW0C4m',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.semver.ps1-Ug7hmEmG',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\js-yaml': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.js-yaml-TgCiFkRb',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.js-yaml-X1QBnE4n',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.js-yaml.cmd-YdJn2NKr',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.js-yaml.ps1-QiBG7u8h',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\json5': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.json5-6ZUb6PZP',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.json5-mgIXSPlS',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.json5.cmd-QWp7MvSn',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.json5.ps1-wdYAYqZo',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\loose-envify': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.loose-envify-BdnRGFQp',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.loose-envify-nJZHgzyA',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.loose-envify.cmd-fPJbiZfP',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.loose-envify.ps1-NYQvIfgd',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\napi-postinstall': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.napi-postinstall-FhNWu4ln',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.napi-postinstall-XaElVuzC',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.napi-postinstall.cmd-N9zGWsyO',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.napi-postinstall.ps1-GVLdjaqk',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\nanoid': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.nanoid-xtd6488U',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.nanoid-M4F7BXqy',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.nanoid.cmd-pv0PQDRJ',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.nanoid.ps1-KoJYa4Rl',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.semver-F6BdTaNN',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver-87uZly9R',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.cmd-azmHnNzA',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\node-exports-info\\node_modules\\.bin\\.semver.ps1-6oCcrCja',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\resolve': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.resolve-PAm1VHr6',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.resolve-hcN3aY0f',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.resolve.cmd-eDft5J5T',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.resolve.ps1-PeJJWFfe',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.semver-B4bBAinw',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.semver-HZ8hW9T5',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.semver.cmd-cV27uRoQ',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.semver.ps1-4PGlkv2u',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\typescript': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.typescript-bRZA4c6y',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsc-U45KqDEj',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsc.cmd-fOFYvqoN',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsc.ps1-wTplypRL',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsserver-55ZfUoSi',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsserver.cmd-cMIxmwXS',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.tsserver.ps1-lJjHvBwm',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\which': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.which-JPHnBkUz',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.node-which-2sBRrpqC',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.node-which.cmd-chjL4MU9',
+229 silly reify   'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\.bin\\.node-which.ps1-1hrFRc7b'
+229 silly reify }
+230 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+231 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+232 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+233 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+234 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+235 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall cache-miss
+236 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+237 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+238 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+239 silly packumentCache corgi:https://registry.npmjs.org/eslint cache-miss
+240 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+241 http cache next@https://registry.npmjs.org/next/-/next-15.1.6.tgz 0ms (cache hit)
+242 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+243 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+244 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+245 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+246 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.1.6.tgz. Extracting by manifest.
+247 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz. Extracting by manifest.
+248 http cache https://registry.npmjs.org/eslint 39ms (cache hit)
+249 silly packumentCache corgi:https://registry.npmjs.org/eslint set size:1198307 disposed:false
+250 http cache https://registry.npmjs.org/eslint/-/eslint-9.19.0.tgz 32ms (cache hit)
+251 http fetch GET 200 https://registry.npmjs.org/semver 414ms (cache miss)
+252 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+253 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 3ms (cache hit)
+254 http fetch GET 200 https://registry.npmjs.org/napi-postinstall 900ms (cache miss)
+255 silly packumentCache corgi:https://registry.npmjs.org/napi-postinstall set size:undefined disposed:false
+256 http cache https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 3ms (cache hit)
+257 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 1129ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/json5 1209ms (cache miss)
+259 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+260 http cache https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 5ms (cache hit)
+261 http fetch GET 200 https://registry.npmjs.org/which 1700ms (cache miss)
+262 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+263 http cache https://registry.npmjs.org/which/-/which-2.0.2.tgz 3ms (cache hit)
+264 http fetch GET 200 https://registry.npmjs.org/semver 1768ms (cache miss)
+265 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+266 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 4ms (cache hit)
+267 http fetch GET 200 https://registry.npmjs.org/semver 2247ms (cache miss)
+268 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+269 http cache https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 5ms (cache hit)
+270 http fetch GET 200 https://registry.npmjs.org/js-yaml 2272ms (cache miss)
+271 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+272 http cache https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.2.tgz 7ms (cache hit)
+273 http fetch GET 200 https://registry.npmjs.org/loose-envify 3204ms (cache miss)
+274 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+275 http cache https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 3ms (cache hit)
+276 http fetch GET 200 https://registry.npmjs.org/resolve 3750ms (cache miss)
+277 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+278 http cache https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz 4ms (cache hit)
+279 http fetch GET 200 https://registry.npmjs.org/nanoid 4174ms (cache miss)
+280 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+281 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 4ms (cache hit)
+282 http fetch GET 200 https://registry.npmjs.org/typescript 8918ms (cache miss)
+283 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+284 http cache https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz 70ms (cache hit)
+285 http fetch GET 200 https://registry.npmjs.org/semver 14026ms (cache miss)
+286 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+287 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 4ms (cache hit)
+288 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\node_modules\next\dist\server\web\spec-extension\cookies.js.map'
+289 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\node_modules\next\dist\server\web\spec-extension\cookies.js.map' [Error: ENOENT: no such file or directory, open 'C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\node_modules\next\dist\server\web\spec-extension\cookies.js.map'] {
+289 silly tar   errno: -4058,
+289 silly tar   code: 'ENOENT',
+289 silly tar   syscall: 'open',
+289 silly tar   path: 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\next\\dist\\server\\web\\spec-extension\\cookies.js.map',
+289 silly tar   entry: Is {
+289 silly tar     _events: [Object: null prototype] {},
+289 silly tar     _eventsCount: 0,
+289 silly tar     _maxListeners: undefined,
+289 silly tar     writable: false,
+289 silly tar     readable: false,
+289 silly tar     extended: undefined,
+289 silly tar     globalExtended: undefined,
+289 silly tar     header: Ls {
+289 silly tar       cksumValid: true,
+289 silly tar       needPax: false,
+289 silly tar       nullBlock: false,
+289 silly tar       block: undefined,
+289 silly tar       path: 'package/dist/server/web/spec-extension/cookies.js.map',
+289 silly tar       mode: 420,
+289 silly tar       uid: undefined,
+289 silly tar       gid: undefined,
+289 silly tar       size: 393,
+289 silly tar       cksum: 8206,
+289 silly tar       linkpath: '',
+289 silly tar       uname: '',
+289 silly tar       gname: '',
+289 silly tar       devmaj: 0,
+289 silly tar       devmin: 0,
+289 silly tar       atime: undefined,
+289 silly tar       ctime: undefined,
+289 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+289 silly tar       charset: undefined,
+289 silly tar       comment: undefined
+289 silly tar     },
+289 silly tar     startBlockSize: 512,
+289 silly tar     blockRemain: 0,
+289 silly tar     remain: 0,
+289 silly tar     type: 'File',
+289 silly tar     meta: false,
+289 silly tar     ignore: false,
+289 silly tar     path: 'dist/server/web/spec-extension/cookies.js.map',
+289 silly tar     mode: 438,
+289 silly tar     uid: undefined,
+289 silly tar     gid: undefined,
+289 silly tar     uname: '',
+289 silly tar     gname: '',
+289 silly tar     size: 393,
+289 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+289 silly tar     atime: undefined,
+289 silly tar     ctime: undefined,
+289 silly tar     linkpath: undefined,
+289 silly tar     dev: undefined,
+289 silly tar     ino: undefined,
+289 silly tar     nlink: undefined,
+289 silly tar     invalid: false,
+289 silly tar     absolute: 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/next/dist/server/web/spec-extension/cookies.js.map',
+289 silly tar     unsupported: false,
+289 silly tar     Symbol(shapeMode): false,
+289 silly tar     Symbol(kCapture): false,
+289 silly tar     Symbol(flowing): false,
+289 silly tar     Symbol(paused): true,
+289 silly tar     Symbol(pipes): [ [Ht] ],
+289 silly tar     Symbol(buffer): [],
+289 silly tar     Symbol(objectMode): false,
+289 silly tar     Symbol(encoding): null,
+289 silly tar     Symbol(async): false,
+289 silly tar     Symbol(decoder): null,
+289 silly tar     Symbol(EOF): true,
+289 silly tar     Symbol(emittedEnd): true,
+289 silly tar     Symbol(emittingEnd): false,
+289 silly tar     Symbol(closed): false,
+289 silly tar     Symbol(emittedError): null,
+289 silly tar     Symbol(bufferLength): 0,
+289 silly tar     Symbol(destroyed): false,
+289 silly tar     Symbol(signal): undefined,
+289 silly tar     Symbol(aborted): false,
+289 silly tar     Symbol(dataListeners): 0,
+289 silly tar     Symbol(discarded): false
+289 silly tar   },
+289 silly tar   cwd: 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/next',
+289 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+289 silly tar }
+290 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.1.6.tgz 21048ms (cache miss)
+291 warn deprecated next@15.1.6: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
+292 http fetch GET 200 https://registry.npmjs.org/acorn 26936ms (cache miss)
+293 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+294 warn tar ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+295 silly tar _r [CwdError]: ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+295 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:41372
+295 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+295 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+295 silly tar   path: 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn',
+295 silly tar   code: 'ENOENT',
+295 silly tar   syscall: 'chdir'
+295 silly tar }
+296 warn tarball tarball data for acorn@8.18.0 (sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==) seems to be corrupted. Trying again.
+297 http cache https://registry.npmjs.org/acorn/-/acorn-8.18.0.tgz 6ms (cache hit)
+298 warn tar ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+299 silly tar _r [CwdError]: ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+299 silly tar     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:41372
+299 silly tar     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+299 silly tar     at FSReqCallback.oncomplete (node:fs:198:21) {
+299 silly tar   path: 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn',
+299 silly tar   code: 'ENOENT',
+299 silly tar   syscall: 'chdir'
+299 silly tar }
+300 warn tarball tarball data for acorn@8.18.0 (sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==) seems to be corrupted. Trying again.
+301 http cache https://registry.npmjs.org/acorn/-/acorn-8.18.0.tgz 6ms (cache hit)
+302 warn cleanup Failed to remove some directories [
+302 warn cleanup   [
+302 warn cleanup     '\\\\?\\C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\next',
+302 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\node_modules\next\dist\esm\build\webpack\plugins'] {
+302 warn cleanup       errno: -4048,
+302 warn cleanup       code: 'EPERM',
+302 warn cleanup       syscall: 'rmdir',
+302 warn cleanup       path: 'C:\\Users\\hemac\\Documents\\Codex\\2026-09-19\\hackdevengers-2-0-is-a-24\\node_modules\\next\\dist\\esm\\build\\webpack\\plugins'
+302 warn cleanup     }
+302 warn cleanup   ]
+302 warn cleanup ]
+303 verbose stack CwdError: ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+303 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\tar\dist\commonjs\index.min.js:3:41372
+303 verbose stack     at callback (C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:306:20)
+303 verbose stack     at FSReqCallback.oncomplete (node:fs:198:21)
+304 error code ENOENT
+305 error syscall chdir
+306 error path C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn
+307 error enoent ENOENT: Cannot cd into 'C:/Users/hemac/Documents/Codex/2026-09-19/hackdevengers-2-0-is-a-24/node_modules/acorn'
+308 error enoent This is related to npm not being able to find a file.
+308 error enoent
+309 silly unfinished npm timer reify 1789818738165
+310 silly unfinished npm timer reify:unpack 1789818740262
+311 silly unfinished npm timer reifyNode:node_modules/acorn 1789818740262
+312 verbose cwd C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24
+313 verbose os Windows_NT 10.0.26200
+314 verbose node v24.19.0
+315 verbose npm  v11.17.0
+316 verbose exit 1
+317 verbose code 1
+318 error A complete log of this run can be found in: C:\Users\hemac\Documents\Codex\2026-09-19\hackdevengers-2-0-is-a-24\work\.npm-cache\_logs\2026-09-19T11_52_17_924Z-debug-0.log
