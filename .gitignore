@@ -4,6 +4,7 @@
 # Next.js output
 /.next
 /out
+/work
 
 # local environment files
 .env*.local
